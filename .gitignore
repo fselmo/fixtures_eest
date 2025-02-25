@@ -6,3 +6,4 @@ docs/_build/
 *.pem
 .env3/
 .idea/
+.meta
