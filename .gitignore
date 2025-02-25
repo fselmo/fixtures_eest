@@ -1,0 +1,8 @@
+venv/
+docs/_build/
+*~
+*.sw?
+.vagrant/
+*.pem
+.env3/
+.idea/
