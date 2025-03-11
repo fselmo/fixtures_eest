@@ -55,7 +55,8 @@
                     "v": "0x00",
                     "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                     "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -117,12 +118,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xb2167f46131647271568d1b229c2092c360087ada241f6ae370d5e6b4a0f62cf",
+            "hash": "0xadcc1dc45d19847a9ade0feca3d7bf92b2ed0837eb67bcf15a77db1745b96ad0",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test TLOADing from slot 2 and then SSTORE this in slot 1, then TSTORE 3 in slot 2.\n    This is done both from the EOA which is delegated to account A, and then A is called.\n    The storage should stay empty on both the EOA and the delegated account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L397",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L384",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -188,7 +189,8 @@
                     "v": "0x00",
                     "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                     "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -250,12 +252,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x049d06919ebe8630344ed726b3a919afb6cebd30f1840e9565d5caf9bbe09aa4",
+            "hash": "0xe4fc6420a6aa0a6d3bdacd510b76f7176a4fd191bb433a72ccfdc09f33b42fae",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test TLOADing from slot 2 and then SSTORE this in slot 1, then TSTORE 3 in slot 2.\n    This is done both from the EOA which is delegated to account A, and then A is called.\n    The storage should stay empty on both the EOA and the delegated account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L397",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L384",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

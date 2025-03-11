@@ -85,15 +85,23 @@
                 }
             ]
         },
+        "config": {
+            "chainid": "0x01"
+        },
         "_info": {
-            "hash": "0x273ab035649c487d1f1119b17cdf68707dca712afb2fe8e12b3f974039c07fe2",
+            "hash": "0xcc6e02b0ae95a2da5ee7d39f2d56b3a723603f579bc92ccd1bf5f8f6c2e6fed7",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests that the BLOBBASEFEE opcode results on exception when called before the fork.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/8fbca341fb0f3eb3a08a296e8f8fa84f233f4faa/tests/cancun/eip7516_blobgasfee/test_blobgasfee_opcode.py#L149",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip7516_blobgasfee/test_blobgasfee_opcode.py#L149",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7516.md",
-            "reference-spec-version": "2ade0452efe8124378f35284676ddfd16dd56ecd"
+            "reference-spec-version": "2ade0452efe8124378f35284676ddfd16dd56ecd",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "master",
+                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+            }
         }
     }
 }

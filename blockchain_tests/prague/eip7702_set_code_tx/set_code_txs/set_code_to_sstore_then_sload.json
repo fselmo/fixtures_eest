@@ -270,7 +270,8 @@
                                 "v": "0x00",
                                 "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                                 "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     },
@@ -297,7 +298,8 @@
                                 "v": "0x00",
                                 "r": "0x97de2e48be640d55c1ddc30aad93b83eabdf0ab91a1734f4030a8b982393a2ec",
                                 "s": "0x1b4bb9401b6c624cf686250dc2f51cab0047b2279325aa5588756563956ab981",
-                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                                "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -310,12 +312,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xac6eff193047c5e83a8abd9165fd6a4ac47dd46bb2f46e84a046a40318b54a6b",
+            "hash": "0x0d14250699f6c1c46e588cdccf1c614178e6bb7d4948207e836b2d917661eeb5",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest the executing a simple SSTORE then SLOAD in two separate set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L270",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L257",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

@@ -289,7 +289,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -302,12 +303,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa3056e76bc853b6cf92f49de9d53bbad8659a5a3b75765b5e807ac13cafbcff1",
+            "hash": "0xa27731f1ba9ea939266d9c33001900bdd707900d52abf3ca70975dc71cfe24c5",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx call -> contract with storage -> pointer A with storage -> storage/tstorage modify\n    Check storage/tstorage modifications when interacting with pointers.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1005",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1005",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -609,7 +610,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -622,12 +624,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x157f35d8fcfd9a3fbee0b4aa6f6fbf20e5ee62edbdede8f1041e5071f2cb490a",
+            "hash": "0xb1e3f2a43b586dfd657fd465f23d9555a7548bc46406b964d7053b924c13b399",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx call -> contract with storage -> pointer A with storage -> storage/tstorage modify\n    Check storage/tstorage modifications when interacting with pointers.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1005",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1005",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -927,7 +929,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -940,12 +943,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x1d6806cddd3e40498cd99a4abe9b1afb6aeb58ec3883a99304728c1dd7b0ce94",
+            "hash": "0xf3d1eea30d6aec5d27326bc4a990362c8548999e45ab2824b8c0b4f5eeb9d313",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx call -> contract with storage -> pointer A with storage -> storage/tstorage modify\n    Check storage/tstorage modifications when interacting with pointers.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1005",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1005",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

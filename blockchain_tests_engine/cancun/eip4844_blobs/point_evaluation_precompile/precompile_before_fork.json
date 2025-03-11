@@ -1,5 +1,5 @@
 {
-    "tests/cancun/eip4844_blobs/test_point_evaluation_precompile.py::test_precompile_before_fork[fork_ShanghaiToCancunAtTime15k-blockchain_test_engine----correct_proof]": {
+    "tests/cancun/eip4844_blobs/test_point_evaluation_precompile.py::test_precompile_before_fork[fork_ShanghaiToCancunAtTime15k-blockchain_test_engine_from_state_test----correct_proof]": {
         "network": "ShanghaiToCancunAtTime15k",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -76,6 +76,17 @@
             }
         },
         "lastblockhash": "0xb630c92d7c399750610cae650d532920b943c53e20761a25ec2431ecc9357ae7",
+        "config": {
+            "network": "ShanghaiToCancunAtTime15k",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
         "engineNewPayloads": [
             {
                 "params": [
@@ -104,14 +115,19 @@
             }
         ],
         "_info": {
-            "hash": "0xbf6213bfc23858a72fceef5b6c797069317e38a9d46aa59bbd761eb35a278ef3",
+            "hash": "0x23a1658d67abf9f32772e064cbb026724392629e48339d8fd5f5c019c8015ff2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest calling the Point Evaluation Precompile before the appropriate fork.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/8fbca341fb0f3eb3a08a296e8f8fa84f233f4faa/tests/cancun/eip4844_blobs/test_point_evaluation_precompile.py#L586",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip4844_blobs/test_point_evaluation_precompile.py#L584",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
-            "reference-spec-version": "f0eb6a364aaf5ccb43516fa2c269a54fb881ecfd"
+            "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "master",
+                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+            }
         }
     }
 }

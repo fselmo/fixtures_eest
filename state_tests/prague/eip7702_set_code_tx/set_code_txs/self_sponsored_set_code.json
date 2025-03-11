@@ -49,7 +49,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -99,12 +100,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xad244f361b0edc3121e7b2c556b8c21a69d86518494d746d24cbebabf4a30475",
+            "hash": "0x4d75bbfea109caee65e9c1c9dbbc9e8f8f7ce52a33f56f76cb0429b8020b79ba",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -164,7 +165,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -214,12 +216,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x20dd5ae40fb1f38fe327c808acf98336619390fed86b5d33a6b1f94aac130272",
+            "hash": "0xeffb6861034e5c9761c8b7b613d6defc0e09e15b4da038632b2b7c1c550ff61c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -279,7 +281,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -329,12 +332,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x5ca6d45d4f0dcaeb516c7c1fcbc7a040448349432d6562fe5c18741264720acb",
+            "hash": "0x6714848995199f2b5d97cb7057e27455eb1f21e5106613deabdf35f6966c0f56",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -394,7 +397,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -444,12 +448,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x461e323d509b9657433ee5a4dabe46ba4466d0f99317a8bed8e2ad659f43935e",
+            "hash": "0xdbc737ca04bb760e5be2bd3bd44c3edea928aee5d2a7ed325c2705b133eb997d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -509,7 +513,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -562,12 +567,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xb3ccc1003fc2b39670610dbdb80eb0dbc0b8e59cd326d205b6f8ad22a0bfecc3",
+            "hash": "0x579647eb7cf3c13180675b5b9d77c796732c93fd66a3fd3d0e8c78d290a73eaf",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -627,7 +632,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -681,12 +687,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xbb400a989350f98764339007e078b00f441731888d1b4325b84b2b597f36586b",
+            "hash": "0x12036bcecfece1b318e2ffdbd75761ceee64949d28123115d4dd181784491d0b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -746,7 +752,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -796,12 +803,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x8731ab8a7a039c95a3f6499f3aebb5f122a71efdd65e49ec68daf38c4e51ae0d",
+            "hash": "0xfd347aaa2a944279e4f5bb517b44c88514124f68e19c7fdc27f3920d23353f0e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -861,7 +868,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -911,12 +919,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x74f355c417e3152bb1fd203b9c8a626ceb3535a51bf4150d7d36d66baff8c7b8",
+            "hash": "0x23e9341f5869f617e8d576e09c1b1f766da50845d86c1e2e463d24501a122a96",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -976,7 +984,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -1029,12 +1038,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xb6bc26f04f55b7ba6f519e81a388c9cf0a6e4c806eceaacbaa355249b21b52e4",
+            "hash": "0x2ecc89026af8a1ca24b10b05440db3d141ed46ddfd8bfb237a09c32af73fd236",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1094,7 +1103,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -1148,12 +1158,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x7b0624704b6cc19a126ea93e89465ead0f46950a535a2350aca4b9d977d09658",
+            "hash": "0x3698c4f2257ce1e697d6e5a5d9502ae6466302ca9a31afc9c11750971b7666f2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test the executing a self-sponsored set-code transaction.\n\n    The transaction is sent to the sender, and the sender is the signer of the only authorization\n    tuple in the authorization list.\n\n    The authorization tuple has a nonce of 1 because the self-sponsored transaction increases the\n    nonce of the sender from zero to one first.\n\n    The expected nonce at the end of the transaction is 2.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L57",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

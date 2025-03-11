@@ -61,7 +61,8 @@
                     "v": "0x01",
                     "r": "0x4da7d232a1bb13981b069aa957f942db7f1304e0949cf9336a0943bb91e9fda3",
                     "s": "0x49d38da4d2bf09638b1b30d598760d075f10081eb265c0538eb215d907f20652",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -123,12 +124,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x85888bd424c44d115fddf575d02ed229ba155c000a3697c968be5422279927d2",
+            "hash": "0xee2faa1f37f7ff400b4147b5eb4d822e68c7a81172bcfd7d7ada649717abbac1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest clearing the delegation of an account in a transaction that fails, OOGs or reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3170",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3157",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -200,7 +201,8 @@
                     "v": "0x01",
                     "r": "0x4da7d232a1bb13981b069aa957f942db7f1304e0949cf9336a0943bb91e9fda3",
                     "s": "0x49d38da4d2bf09638b1b30d598760d075f10081eb265c0538eb215d907f20652",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -262,12 +264,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x66c1b0f90287d6decb7a587a15629f0c6b7c732b65bea4fc9ee9e7815449a51e",
+            "hash": "0x7e1da5cd94572f71b5e7653134bb1c0100b606d98b3d45f56d83f47dd9a3992a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest clearing the delegation of an account in a transaction that fails, OOGs or reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3170",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3157",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -339,7 +341,8 @@
                     "v": "0x01",
                     "r": "0x4da7d232a1bb13981b069aa957f942db7f1304e0949cf9336a0943bb91e9fda3",
                     "s": "0x49d38da4d2bf09638b1b30d598760d075f10081eb265c0538eb215d907f20652",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -401,12 +404,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x057e6202f68c05bd9e6deb1ddee9fc52e72c2bcef3a370b9dbd51fdd19023226",
+            "hash": "0xfa13f3604221e9708f819b67c6494fdd90706142b973310a1449712e11d1d84c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest clearing the delegation of an account in a transaction that fails, OOGs or reverts.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3170",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L3157",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

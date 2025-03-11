@@ -1,5 +1,5 @@
 {
-    "tests/cancun/eip4844_blobs/test_blob_txs.py::test_blob_type_tx_pre_fork[fork_ShanghaiToCancunAtTime15k-blockchain_test_engine-no_blob_tx]": {
+    "tests/cancun/eip4844_blobs/test_blob_txs.py::test_blob_type_tx_pre_fork[fork_ShanghaiToCancunAtTime15k-blockchain_test_engine_from_state_test-no_blob_tx]": {
         "network": "ShanghaiToCancunAtTime15k",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -50,6 +50,17 @@
             }
         },
         "lastblockhash": "0xe65f8efd00744af00dd2592d0550541cd1e883694df663eead84f129ff2138df",
+        "config": {
+            "network": "ShanghaiToCancunAtTime15k",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
         "engineNewPayloads": [
             {
                 "params": [
@@ -79,17 +90,22 @@
             }
         ],
         "_info": {
-            "hash": "0x53f850e351001f2a1e61a175292d0587330c92d0b5864a89b72a21a9056e2014",
+            "hash": "0xc9de03b359c582684c1932c1678cec3170a61d9dbb042fff4bcf07c28b64dd96",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/8fbca341fb0f3eb3a08a296e8f8fa84f233f4faa/tests/cancun/eip4844_blobs/test_blob_txs.py#L1317",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
-            "reference-spec-version": "f0eb6a364aaf5ccb43516fa2c269a54fb881ecfd"
+            "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "master",
+                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+            }
         }
     },
-    "tests/cancun/eip4844_blobs/test_blob_txs.py::test_blob_type_tx_pre_fork[fork_ShanghaiToCancunAtTime15k-blockchain_test_engine-one_blob_tx]": {
+    "tests/cancun/eip4844_blobs/test_blob_txs.py::test_blob_type_tx_pre_fork[fork_ShanghaiToCancunAtTime15k-blockchain_test_engine_from_state_test-one_blob_tx]": {
         "network": "ShanghaiToCancunAtTime15k",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -140,6 +156,17 @@
             }
         },
         "lastblockhash": "0x93ba1d150a1d1016c13e30e068f95a491288910b7688ac42aa2805f4fac05f20",
+        "config": {
+            "network": "ShanghaiToCancunAtTime15k",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
         "engineNewPayloads": [
             {
                 "params": [
@@ -169,14 +196,19 @@
             }
         ],
         "_info": {
-            "hash": "0x971eb2bfe512f97ef540f6f786b76ee095d7cb079016d0da2ab71510219c73de",
+            "hash": "0x16093be25149ea68594f7f678e6d78ece47307fda05cab383a9b3dc65b457316",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/8fbca341fb0f3eb3a08a296e8f8fa84f233f4faa/tests/cancun/eip4844_blobs/test_blob_txs.py#L1317",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
-            "reference-spec-version": "f0eb6a364aaf5ccb43516fa2c269a54fb881ecfd"
+            "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "master",
+                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+            }
         }
     }
 }

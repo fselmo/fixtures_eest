@@ -61,7 +61,8 @@
                     "v": "0x01",
                     "r": "0xc5df1fdc89e4e61095f424c135dbe61b4e894139a4353ecb9be92705b7c5f12c",
                     "s": "0x080205c42bd067a9fa6a7d7602b0dd189fe5ebc5daf69d49a1605d62365354f3",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -123,12 +124,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x9d8219ae53516f212611f065eb82ec83b232fa3e031d9a756ba22ed6fef7271f",
+            "hash": "0xac9badeb710f0721da45a809bac72edb485be44351df14a548a4e5df0c9c5789",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Set pointer to account that we are about to create.\n\n    Pointer is set to create address that is yet not in the state\n    During the call, address is created. pointer is called from init code to do nothing\n    Then after account is created it is called again to run created code\n\n    Then revert / no revert\n\n    Call pointer again from the upper level to ensure it does not call reverted code",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1242",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1242",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -200,7 +201,8 @@
                     "v": "0x01",
                     "r": "0xc5df1fdc89e4e61095f424c135dbe61b4e894139a4353ecb9be92705b7c5f12c",
                     "s": "0x080205c42bd067a9fa6a7d7602b0dd189fe5ebc5daf69d49a1605d62365354f3",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -275,12 +277,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x995ed396b4bfb90b081780afdf200f840c33d0a2dad860d3d68c604a63a7afc0",
+            "hash": "0x08a0f59b0f7e260489e75fb8140010c771bfc1c91e16c47b00b9b871820483c8",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Set pointer to account that we are about to create.\n\n    Pointer is set to create address that is yet not in the state\n    During the call, address is created. pointer is called from init code to do nothing\n    Then after account is created it is called again to run created code\n\n    Then revert / no revert\n\n    Call pointer again from the upper level to ensure it does not call reverted code",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1242",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1242",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -352,7 +354,8 @@
                     "v": "0x01",
                     "r": "0xc5df1fdc89e4e61095f424c135dbe61b4e894139a4353ecb9be92705b7c5f12c",
                     "s": "0x080205c42bd067a9fa6a7d7602b0dd189fe5ebc5daf69d49a1605d62365354f3",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -414,12 +417,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x9c3629590c596cbd64087fa407e23089ee1cabfab6b63330444d53d1d736b83d",
+            "hash": "0xa887749f4b51323c72718d0828b6789b8667d5dba04a60ba6d45bfdbf89e1a54",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Set pointer to account that we are about to create.\n\n    Pointer is set to create address that is yet not in the state\n    During the call, address is created. pointer is called from init code to do nothing\n    Then after account is created it is called again to run created code\n\n    Then revert / no revert\n\n    Call pointer again from the upper level to ensure it does not call reverted code",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1242",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1242",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

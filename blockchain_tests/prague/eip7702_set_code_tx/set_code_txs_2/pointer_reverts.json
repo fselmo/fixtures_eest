@@ -279,7 +279,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -292,12 +293,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x76295db797b22ba395396fba4eaff2930741ecf3da48cfd013dc392888e01b2e",
+            "hash": "0x43ca918bf13d3ac44262668d9bc668e9a7bb688c0eb4f595aed3859d6b38856d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -581,7 +582,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -594,12 +596,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x196dd2f8dc2fbcbc498acd42fdb2c8f088fa7cda4ca11b50e060b13f6190b053",
+            "hash": "0x7cc866c5e475aed64d1bdb98e6f2a07264f054f308d788a1f2c6ad49f0735747",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -886,7 +888,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -899,12 +902,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x855487b68af50c93475199616cbc71ec1f94c3d7830420842bb26f5682919ff7",
+            "hash": "0x123e31fa5b4092ac6bdceaf3340ee86efdf99f0140bc624298c8cf1f677da43a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1191,7 +1194,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1204,12 +1208,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc033617ddbbe3e5f25ba1eb4dcf120ecfc692557888afaf0e6363087a51c4f87",
+            "hash": "0xdf44f2fa985b9570be8fbb0fb2437f5bec9bd202882f689763a0dadf1b9e1d15",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1493,7 +1497,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1506,12 +1511,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x986098c1ae333be5ab40e86582c9c0f1c883543fe8c9c9f26359b856b6a3544e",
+            "hash": "0xc288b0da8ad01de9e972262358f625bc484fd742b37554332c529eb045e154bd",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1801,7 +1806,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1814,12 +1820,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x19ee10328c201465401258ae6845dd8c5c5103048419587b845e237308f9352c",
+            "hash": "0x61f52566dc5ad3374a0f749c0d02dfde324332da7440ca4478cbb027148f85f3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2103,7 +2109,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2116,12 +2123,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x3af840cf2fa8bd292e6cdfe332ec24ccf9b6f686ca132051ae1f55c8b79df433",
+            "hash": "0x69cd9afc19c9254e13f78f164b47ba43de67e436a86b7d40adb16529df194962",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2408,7 +2415,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2421,12 +2429,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe2698418d1e5f75fb5f2fa5e0c205fd9476549917a18e98217e759b211782599",
+            "hash": "0xdf7aee718c90dea198addc41b5b7d5404056e97eaa7d2d5ab2dd913b49cd53d2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2713,7 +2721,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2726,12 +2735,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x6607f5b90976aff74505de8a7a96c7c7e8df0d137edfaccc29a5e42710a9bde8",
+            "hash": "0x083aa0aab02fd9db3931b08eda70db9f6279cd6b2e348da2871ce9763516362f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3015,7 +3024,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3028,12 +3038,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4ebe128adf2afdb7623e91b843d7a36910f78411d51793c3ff6474fe9dc212b0",
+            "hash": "0x0a22f46b59d7140fabdabccc725e2bf81848e4968ab9ebb5221baa9b3f88e6c3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nPointer do operations then revert.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1349",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

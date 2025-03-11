@@ -49,7 +49,8 @@
                     "v": "0x00",
                     "r": "0x01",
                     "s": "0x01",
-                    "signer": "0x7c98f1c8dc92f5a9abb6007ee831a4e31d104bdc"
+                    "signer": "0x7c98f1c8dc92f5a9abb6007ee831a4e31d104bdc",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -107,12 +108,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x92f79777b1b336745338bacc3ba4d1f6959953b026be978be65514bc56b1fcb4",
+            "hash": "0x5324e9e7119b30042954291aa63ef6d4a0f688842e7db41e76391c0bf873ac69",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using synthetic signatures.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2069",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2056",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -172,7 +173,8 @@
                     "v": "0x00",
                     "r": "0x01",
                     "s": "0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0",
-                    "signer": "0x1adfc71c73ee7f57d027847138bf3f07a7dbdf39"
+                    "signer": "0x1adfc71c73ee7f57d027847138bf3f07a7dbdf39",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -230,12 +232,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xc974d828916938b0dd30c9a1a4d047c739b9714ee3a575cb247de3ac9d693a05",
+            "hash": "0xf851b33db6709eb4c7b0b8ced4e9811183dd6d7ad6483c4b42ea386fab392b21",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using synthetic signatures.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2069",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2056",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -295,7 +297,8 @@
                     "v": "0x00",
                     "r": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd036413f",
                     "s": "0x01",
-                    "signer": "0x2b71df50f79d18b48e92a915c2683f7aa5b8fb6e"
+                    "signer": "0x2b71df50f79d18b48e92a915c2683f7aa5b8fb6e",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -353,12 +356,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x86f4c6919064d54c9b6604831e5480911ac32ac14a7c2b5364c07769ae6a286e",
+            "hash": "0x168a53e32cd0646d303dc597b53a926678da29eefbed591e56fd458e7b2277b2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using synthetic signatures.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2069",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2056",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -418,7 +421,8 @@
                     "v": "0x01",
                     "r": "0x01",
                     "s": "0x01",
-                    "signer": "0x98819367593544e6471a3f1b3a35c37232acf875"
+                    "signer": "0x98819367593544e6471a3f1b3a35c37232acf875",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -476,12 +480,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xc4979f46e0eb387736b25fae4781985e4cd1715725c3f07856aac9d22c4db422",
+            "hash": "0x13b6965ac6d4b76f317c566eccebbff39648e63c9badb1c0b562cdb2a481eb23",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using synthetic signatures.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2069",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2056",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -541,7 +545,8 @@
                     "v": "0x01",
                     "r": "0x01",
                     "s": "0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0",
-                    "signer": "0x375ce41e81c764aead9c0ae1e90d01d0d9e629e1"
+                    "signer": "0x375ce41e81c764aead9c0ae1e90d01d0d9e629e1",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -599,12 +604,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xdc90f62b623a9836e0eadb0dadac82caff82e23472d4a567f41a02ed7b1a59c1",
+            "hash": "0xcc11fbff4c6ad663f8468c8020e6d43c2a0ae40c95cd1aea6bc788eac57d9347",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using synthetic signatures.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2069",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2056",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -664,7 +669,8 @@
                     "v": "0x01",
                     "r": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd036413f",
                     "s": "0x01",
-                    "signer": "0x8dbd05ecb7773c0bedf55563f80c36194ee55ebf"
+                    "signer": "0x8dbd05ecb7773c0bedf55563f80c36194ee55ebf",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -722,12 +728,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xa85b18d39ed8b9ff34d13724db141f17144b1f6e5cbf4a5c700748b6ce61a8d6",
+            "hash": "0x40c7519ba2ddb153b86c04518ded5cf94e2331b140d50b12b0e0bdc40d60807c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using synthetic signatures.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2069",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2056",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

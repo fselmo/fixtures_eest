@@ -49,7 +49,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -58,7 +59,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -117,12 +119,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x033c3d46c8ce4029ded18942b8b5de2f89fcc8d3b7533c489bfa189f2725f521",
+            "hash": "0x77bb96aa05c795849d1fa692c07324c4d72ae3ceb516b723eb00023e4ede6f8d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -182,7 +184,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -191,7 +194,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -250,12 +254,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x41c6f81c02d598f7a0bba45ec7718ca08b3b9ed5f97231d03f2fe1e7528f9871",
+            "hash": "0x54c239357dfa6812850c02a16d8b4b129da2590c5644d279d3a5df2d5ec9db46",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -315,7 +319,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -324,7 +329,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -333,7 +339,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -342,7 +349,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -408,12 +416,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x5d79b07a8c83b8a8d366814f165bb6c91eddd80ccf6d7a6f9149458039eb1bc4",
+            "hash": "0x21ed4c218eeae691740aaa3646f345d59eb09539cc045501f128b3c421ad3fec",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -473,7 +481,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -482,7 +491,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -491,7 +501,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -500,7 +511,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -566,12 +578,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x1d28cf80401bcdf4f92ad832db048bc2600f476acd597705b0982b531054c226",
+            "hash": "0x036b737325acc633b4ae07eb583de7f2cf46e0c30cea637fc3ce7b73baf98a44",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -637,7 +649,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -646,7 +659,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -712,12 +726,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xa9ab4ee6e61b4c5ee86fec44cda1ed5c51d948bb11938a452391da1cae007ea6",
+            "hash": "0xf3e779909f82c9393cba530cb908f1d4cb3ac56a610560faed51f0d8cc700bfe",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -783,7 +797,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -792,7 +807,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -858,12 +874,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xf4b8eff013b836cac9934d44c7f4b4ddbf185230bc1cfa8b5a37cefe039d2be9",
+            "hash": "0x5011f9a42b47023aa3cc3d9717138f62a80bf5e658eacea39c8c8810b01f1eae",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -929,7 +945,8 @@
                     "v": "0x01",
                     "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                     "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -938,7 +955,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -998,12 +1016,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x3d1b103791e81ab5c94c920a653e1812f43313c246daa65db5b7630a86144f2a",
+            "hash": "0x52f8f80e03a1423a72cfb3599c73ff3f7feeccc3ba4350ea36c114a76de61be1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1069,7 +1087,8 @@
                     "v": "0x01",
                     "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                     "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -1078,7 +1097,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1138,12 +1158,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x1d11b9c3c26b9ffe50d2751a263806b9b1ae6d51c1a6ea097bbf066e4cd9832e",
+            "hash": "0x18a96df541ae60406da8589a6064cea54788f6cfb336c48310070cf70dedf8e4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1215,7 +1235,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -1224,7 +1245,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1290,12 +1312,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x1f963c28ef7785dd1dd882c4a93b6006a158ca1f8ebaf3cf75f90d86a9fcdb3b",
+            "hash": "0xf319a338b0e0f40123d2fce0304c2100d12aa6c4c17693aa81d463b144315b9c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1367,7 +1389,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -1376,7 +1399,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1442,12 +1466,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x0967b54e6b1a71f30fe906685c7b5575cac9246b5638d30294efffc3503d8802",
+            "hash": "0x57884a024b42df474b667540c2a6807e54bcd90e9ef1874836887b3ddc98123b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1507,7 +1531,8 @@
                     "v": "0x01",
                     "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                     "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x02",
@@ -1516,7 +1541,8 @@
                     "v": "0x00",
                     "r": "0x557efc799006e596ff3ac99b422f4e7827f33f0b11fa88df261e406e22132863",
                     "s": "0x2cd1bc72970b0b41947c99191eac323d08ea408e7b135223858ada51f738ec64",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1569,12 +1595,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x43355d0f6b68f18af73a35d5a78796913e061d138385e0bba3d3b515029485eb",
+            "hash": "0x918de794fa5e10e688f565b049877734faad71822140769011f5587f648192c2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1634,7 +1660,8 @@
                     "v": "0x01",
                     "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                     "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x02",
@@ -1643,7 +1670,8 @@
                     "v": "0x00",
                     "r": "0x557efc799006e596ff3ac99b422f4e7827f33f0b11fa88df261e406e22132863",
                     "s": "0x2cd1bc72970b0b41947c99191eac323d08ea408e7b135223858ada51f738ec64",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1696,12 +1724,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xfc0abeee1bd1939520eaed5b8161e4de0aa92236aef1763efa282c44500bf2dd",
+            "hash": "0x2ecb816a3e0fbb19d5b66bd21ebffccd3d3989f23bd388a4c0a0bebf2b7401cb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1761,7 +1789,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 },
                 {
                     "chainId": "0x00",
@@ -1770,7 +1799,8 @@
                     "v": "0x01",
                     "r": "0xdfec9a52b56379a65ade4b9f6fe070b325b233a595a21f79c20a775358beba78",
                     "s": "0x345d8eacf4a86d51855cbdc93aef70e93acf222ca769ecbdf5270c05d49de891",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1824,12 +1854,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xbf263d0c16f10d831e6dbc2893ad5f275c437fbc62913b4c314751496b29f301",
+            "hash": "0x5467f05fd96fc994280baafaf25414ae7f8033a18f91c6d3e038b664d6628e77",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1889,7 +1919,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 },
                 {
                     "chainId": "0x00",
@@ -1898,7 +1929,8 @@
                     "v": "0x01",
                     "r": "0xdfec9a52b56379a65ade4b9f6fe070b325b233a595a21f79c20a775358beba78",
                     "s": "0x345d8eacf4a86d51855cbdc93aef70e93acf222ca769ecbdf5270c05d49de891",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1952,12 +1984,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xa0cc7ce43a76b8b80f9b56c7ee86afda3e3da0b812382a3f4f675c4bbf82c929",
+            "hash": "0x9e6f3a3925b10bf520f52185bb7ef8d87e14754cd3c5bde93d5bda6af607a434",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2017,7 +2049,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 },
                 {
                     "chainId": "0x00",
@@ -2026,7 +2059,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2079,12 +2113,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x42c250a8a30793e7a2d3242f645498c45b5ca41ed65d8ad1ca4ba636bb2514f3",
+            "hash": "0x0e6e81492df2290ff3e7806789b83a7c463c11ef2810f9fd25bbab07575e86fe",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2144,7 +2178,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 },
                 {
                     "chainId": "0x00",
@@ -2153,7 +2188,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2206,12 +2242,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xad658301e933be7b53bed9645164b7286bee7f41f32747b084360a273cbbbb3b",
+            "hash": "0x898144908966abebb85459e296fbcbe8107a26b70a51f3894082f7a7b65058d1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2277,7 +2313,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -2286,7 +2323,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2345,12 +2383,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xb004877e7c60a3772ce8911213f1e7eb19ffca7cb47cadac54b77c9424196458",
+            "hash": "0x536170aeb87861b04be466f41cea40c468dfc8218e52e1bf1cb94c5c3ed3ff2a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2416,7 +2454,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -2425,7 +2464,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2484,12 +2524,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x51c9d1e44e9172e4f587f96e37c354edc898a33c1c349921523ca6507f3fb011",
+            "hash": "0x821d6bfdd7b762e7e6dac758b626266af56e2e5b04e5238bbd3895c10539f7bb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2549,7 +2589,8 @@
                     "v": "0x01",
                     "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                     "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -2558,7 +2599,8 @@
                     "v": "0x01",
                     "r": "0xa482bcddcc7fc855c7853e70c4d51e95c73d4f6867ce500fe49be1a62a2c25dd",
                     "s": "0x04ab2df71bb8cbf316c0b97ef286d8f19f0ab620d2758fe53cbe7a52b45e3a0a",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2611,12 +2653,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x6c34580afbc68a822ca819797ec5d230db67ffd0fc1d82ec39cf029c2cdac146",
+            "hash": "0x891b5bcbb2ae80d107ded54357f9e19517fb9b32ad30ddd3b3df55226c6d6656",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2676,7 +2718,8 @@
                     "v": "0x01",
                     "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                     "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -2685,7 +2728,8 @@
                     "v": "0x01",
                     "r": "0xa482bcddcc7fc855c7853e70c4d51e95c73d4f6867ce500fe49be1a62a2c25dd",
                     "s": "0x04ab2df71bb8cbf316c0b97ef286d8f19f0ab620d2758fe53cbe7a52b45e3a0a",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2738,12 +2782,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xee19dca99389a58e813b7f40192b20741029026745721fa696084c1df3b89887",
+            "hash": "0x74b8b95076682bcfd53978c2ef4f80dd1445bb0fe8d36d9d31d4bc91d1569e67",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2803,7 +2847,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -2812,7 +2857,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2878,12 +2924,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xf9bfeff7a41791208ade766ec0924d854b3b0fd956c0e42c1812b46d074313f1",
+            "hash": "0xbe4d5f5f10b4c1e1fe48f345dda675d1b0ef86297378156a42ec626b4c8024e1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2943,7 +2989,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -2952,7 +2999,8 @@
                     "v": "0x01",
                     "r": "0x0345c56a25c9b20388d46c6313e904c2bc902157d4b64b0f3093b79f58211b59",
                     "s": "0x2a6501b16e91d253e98399cda003f8abbbaf1e67c8fa4764f899a5057210f1b3",
-                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373"
+                    "signer": "0x78cc42dd276339ef70b322674fd5dc7ea6ea9373",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -3018,12 +3066,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x7cd9ec737161ec27bfe9ba98fadfa2802d6ce4ab8cca43a899475a06ee460cae",
+            "hash": "0xe46fd1d7bb727578e290463085e44fc7b0d499d3abf011e686d3ec7f69220b74",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3083,7 +3131,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -3092,7 +3141,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -3151,12 +3201,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xf594fe6c0807bb0a5b51ae2c76d06c3c93238cec3e80b9c2f52926ff915e8db3",
+            "hash": "0x5626f2ea0b6e8bf2ac51ea36217cb68f901e479202618883baeec26712e72244",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3216,7 +3266,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -3225,7 +3276,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -3284,12 +3336,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xfa97adae0ea32564a86d043058bf1b8a317de187e8c9e8fbf2918b2a69d456bd",
+            "hash": "0x069296e49a146d44ae8a651ea7d1cadb0e3c8540c14583ce71019743802e18b7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3412,8 +3464,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3536,8 +3588,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3648,8 +3700,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3760,8 +3812,8 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3821,7 +3873,8 @@
                     "v": "0x01",
                     "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                     "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -3874,12 +3927,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xb0cec2c3cc301654c2439c472d894fc99ccb3c99bd908e036b6b5d73e196730c",
+            "hash": "0xed1daab8ec8a9137b92a4dc6071b0bb750770d6c9e8807223df4f925ed58b1f8",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3939,7 +3992,8 @@
                     "v": "0x01",
                     "r": "0x0b7073136c77ec06ffc3909f56bb58442aab2233b4b1f92b3f1a70869dc6cd86",
                     "s": "0x5b5bd1067485b74d5ed6667f57608adaf51bd9669a50e4283b063ddf0fe9b0bc",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -3992,12 +4046,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xc9f7f28d356a090d41745ebef842aa71de7d64c7bea7cb4bc91cd42d267f86d8",
+            "hash": "0x78be8f2b6adea8667fddb91e33275072d0bbd62b0baf4a83135277417748c7ac",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4057,7 +4111,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4110,12 +4165,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x2df86482f08bfb38bbbf4565941bae4eaeb92c4055ef089f1e43a51613951118",
+            "hash": "0xf0d27ff662625719c49417bc08be97e769d5524210cb3ada17a08e3beabac544",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4175,7 +4230,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4228,12 +4284,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x20e2c12971c43d197c6a85682e1ca13d13c52840d165db2b5a2f8093ff979525",
+            "hash": "0x02f8517d2e9afad0179c3fcaef48f3d39886259e33c4cce79da1d12feeeb9995",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4299,7 +4355,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4358,12 +4415,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xf96c146a92d9e79002c80c4a3b954e64bd81645f8d7f4ba5c065d6d6ea7f02d6",
+            "hash": "0x4a6a889daa5f1261e137ad45df71063c12c7f1237770138bfae43a15c77a8411",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4429,7 +4486,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4488,12 +4546,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x0a303beb13dd61447a53b66936f6d1bacd8442d036efde47032511bdddc21f97",
+            "hash": "0x5534ee38940a8c39a0820d269a688fa83977e3d8669e57ba7da47861d90830fe",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4553,7 +4611,8 @@
                     "v": "0x01",
                     "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                     "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4606,12 +4665,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x60309fb369f6b9350c3fcbede13e618dd84f2f55bc5462629dd8b588f891bed0",
+            "hash": "0xcdb4933e276ce23d24d7fa77eead7451cea0aa3e8d6111a6f7fd253c14e065c1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4671,7 +4730,8 @@
                     "v": "0x01",
                     "r": "0x5dc970375527771146e0d4d3f938cab2b3d26a8eeac635d6e98ffc783e5fdab9",
                     "s": "0x670def30129ad98b77e5ca9a58e62f770c5faf5eb4d3ae469ab1125530d1494d",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4724,12 +4784,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x917e7c6d4f7c3b2fc838aec22beb9a9f234a4227c918c5abdfecedbd930008b7",
+            "hash": "0x0921d7d46e7f44e76d1621a32eb0c756c7bd3272b0341d144b5aadf707c6780a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4795,7 +4855,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4854,12 +4915,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x7e750143c5552cc587efbbeb402c046ece66ca31ab133845d07557c66429b2c7",
+            "hash": "0x5805b93778c663bbbe500c871217da27dac489fed08e79467c2c5dc9d87735fb",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4925,7 +4986,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -4984,12 +5046,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xc19f9537422c575d671c02efc8d7110041b1250d7b478bdccb7617ab4985946b",
+            "hash": "0x5d3028f1a872ce5be7da7928bd72b93bf5d37e5d47c5786c777aa7d6c6b646aa",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5049,7 +5111,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -5108,12 +5171,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xfd6bec8a5f45c4f7c193b325957504bb4970ca287f466d1bd519bf01441b5b73",
+            "hash": "0xfe641bc64cd24f9ad26b772b44a16abe4fe95a094f3da93d37166eb9295cb8c8",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5173,7 +5236,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -5232,12 +5296,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x5fa194505cfe9420395cc3c08237371f53d724f017c28a7bd34968adaf5cce79",
+            "hash": "0x1df5a14321c8ccf365456286d9c629933ff8a4d09e5cd9773843b2678ed42d4a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5303,7 +5367,8 @@
                     "v": "0x00",
                     "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                     "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -5368,12 +5433,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x08b4b80a1d4c0c3d57bed5e8e05327939b274a2b8a9aa2b0e88e12a6b29d8fef",
+            "hash": "0xaa5c372eceb7393c33a88dbc1b5414952b4dedde7618befca730e45c9545e568",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5439,7 +5504,8 @@
                     "v": "0x00",
                     "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                     "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -5504,12 +5570,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x49ec726e0ea2da27bd573105b1b2fa63d677c9edaea03e0ded615bd7dfd7c1fa",
+            "hash": "0x27df0c39b4d080830f64a22c82752cf8e15c8f059a0fe07c2dacef1365bb12d8",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5575,7 +5641,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -5640,12 +5707,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x642f6b9a9ccb9833aa2dc3aaad50d946a6cabbcc93e3432b04749c97487dab0c",
+            "hash": "0x08c568aa30110dab029377b66d9c8d9a674ba5ba8592000ec20b8eb20575687d",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5711,7 +5778,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -5776,12 +5844,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xbb5951c86caf284665829e2648191b82ccb32d2ed72bfe415890fbbfe75dd6f8",
+            "hash": "0x167fc575e4561ffa3c5d9348aab00847b2a4cc11f7264fa17ba15678c5f56858",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5854,7 +5922,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -5913,12 +5982,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x10d8a23fd45d4afc71c673f7dbc1a5f90c17702d66e0f38eaf4ae7d4160ebebe",
+            "hash": "0x9f9970ea8f089517c518284cbfcbc9584c4d1f92148b651a94d2c19c0c92d3ca",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5991,7 +6060,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6050,12 +6120,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x1e441914a686b17bc0a1074424cddc9799d1f42fe076b1139954c7b747f69f7f",
+            "hash": "0x5355d53f4c93c7ca65557f672c5bd63149ee562c6c6bd3b83040bccc30d61394",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6122,7 +6192,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6181,12 +6252,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xdde278d9770544f022d18070f11accc12369bd0346ee1a43e2eefc4714a39216",
+            "hash": "0x91e851d23c1249a94c453f25c29541432868b7b90ab0369f06e48556ef4a4d5a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6253,7 +6324,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6312,12 +6384,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xad3a2a69c113ca94ef3537648c9ebd7a2d720ec3a5659125995f2b460b37d31e",
+            "hash": "0xc3f1d742b60906a6454dc66514c5afd2933481aa3e2c0ea33b50e56343c3f68a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6384,7 +6456,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6443,12 +6516,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xf63fcd06a3a86ffaec362b4e0c94445e5592f63b3c6601c30e9cc5f08b7a7d3f",
+            "hash": "0xa080d33023d889daf73df0d63f89f41c0e860194aac4767f58bcd839413149b6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6515,7 +6588,8 @@
                     "v": "0x01",
                     "r": "0x5a8cac98fd240d8ef83c22db4a061ffa0facb1801245283cc05fc809d8b92837",
                     "s": "0x1c3162fe11d91bc24d4fa00fb19ca34531e0eacdf8142c804be44058d5b8244f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6574,12 +6648,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xa2841f9c679b5a5b78377348ebf298abb9fbcf61d0668ed050a56f586ebd8bc1",
+            "hash": "0xfebc466e516ccebd5a425037cd91f8687344042d3421fbc8d1c8ccecb444f87f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6639,7 +6713,8 @@
                     "v": "0x00",
                     "r": "0xc36ce51d55ca9c3cffd29468f696f577fcbedaf4c26ac1624b97ddb9aee0e32a",
                     "s": "0x6a9b09f69f8367aa9a4294139163f4ca3ad8e3dc816ce728c0485c31ebc4735f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6698,12 +6773,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x2ca4df3a86a5f90f519477a79f69c57dd25e7d40dde2f50fa34e4f3b8a8144b9",
+            "hash": "0x8a5ac42e524e88785d1cd12911c0be0e5efc80d620804abe0a3263c44b3553a9",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6763,7 +6838,8 @@
                     "v": "0x00",
                     "r": "0xc36ce51d55ca9c3cffd29468f696f577fcbedaf4c26ac1624b97ddb9aee0e32a",
                     "s": "0x6a9b09f69f8367aa9a4294139163f4ca3ad8e3dc816ce728c0485c31ebc4735f",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6822,12 +6898,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xb7968705c65ef18b1d1bb03108c21ad7025342f3f446d37fbcec41c723c50126",
+            "hash": "0x7feed0b1b0860c7f2ab9111f5e8ebde86dc5043ad148727c711c4013ff782f97",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6893,7 +6969,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -6952,12 +7029,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x1582e14d02e52c009554e1fbc8ca90ba554d49871af3c64b7c3fdbc6dcfce2dc",
+            "hash": "0xc63b0e6ace2edbf66377fe716c4325f0d854866d830b6fd7c91ea0d07ba4f8c1",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7023,7 +7100,8 @@
                     "v": "0x00",
                     "r": "0x6cacf1ec5bb4f5c1c84ae564222cbf2ce124add0a2707287860881692263fca4",
                     "s": "0x0315456b6df53b696a97f927e9a4624014dafe0031cc88979754ca4be33140eb",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -7082,12 +7160,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x97395237ac4c6448fc05b30742bcf511e90ac25869873c6809d0377544db07a4",
+            "hash": "0xc7db8f7aae2d23baea01ead7ae81cece8d75e5fcbd7c569057ba8486e2be36ac",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest warming of the authority and authorized accounts for set-code transactions.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_gas.py#L751",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

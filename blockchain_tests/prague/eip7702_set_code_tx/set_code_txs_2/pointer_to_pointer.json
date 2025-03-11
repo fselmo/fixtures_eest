@@ -273,7 +273,8 @@
                                 "v": "0x01",
                                 "r": "0xcbafe302a607124683e92b77eba2dc2d04d245ce1f494e4984e03cffa2c0d9d3",
                                 "s": "0x7cfc3dc86f258125daf4308589530d9c5b1196e3d5c9ea857f84abb0fa5abc2c",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x01"
                             },
                             {
                                 "chainId": "0x00",
@@ -282,7 +283,8 @@
                                 "v": "0x01",
                                 "r": "0x17e1c21dbadcd17a27c8bec52b82b7e918a76e894ea7468ae1286d392ad2dd13",
                                 "s": "0x426deeffce74d1285ec225e969bffc1715e7321712e15c3b15b300cdeb0679ae",
-                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                                "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                                "yParity": "0x01"
                             }
                         ]
                     }
@@ -295,12 +297,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0da682495608b9812dc95fe6cae5bac355f4b8d55fc3594a4170c19f17881c4d",
+            "hash": "0x54fad0d5ce04c50e12531bb64217fd0749a68ddea607962b394f6d8f9be165c9",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> pointer B.\n\n    Direct call from pointer to pointer is OOG",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L91",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L91",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

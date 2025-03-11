@@ -356,7 +356,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -422,7 +423,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -435,12 +437,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x9925fb3263270ad61b1d08e4b30085487493ec931ea9e1cc2214417c3ef915c0",
+            "hash": "0x80b892afc9d9949a544dcee14338c13d8f50f12536b8d68ae26b2848b68ab965",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -807,7 +809,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -866,7 +869,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -879,12 +883,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa943bee0bb7dd22f25b828739f0a1538fe3105b0613743c97d4ab783194c725f",
+            "hash": "0x5bbd0ea4f6f2fa5e41cb63edf27e15f415e84f42ffb7faff398f09f95d776ca6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1244,7 +1248,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1310,7 +1315,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1323,12 +1329,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xea66fb7f830a60f4d46a8c180aad512743969e38bdf03a39fe8e7104606f57d0",
+            "hash": "0x0ec89e3a64434224e44156682d9100ff895c08ee8ec17f5cd0d2f04077dda829",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1688,7 +1694,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1747,7 +1754,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -1760,12 +1768,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdeeb7cd6416c316e85d2f2668a1b1491559462142d78e202cea61850c61595a5",
+            "hash": "0x0d51862e9d5fbc66f2f92ec100772a9b540f2b6d2049a3bf5607329e6f1e3d49",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2132,7 +2140,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2199,12 +2208,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x34e9991c2b8480e37fa2c729fa7992f745f130b16a639a0a5e4fed824516f121",
+            "hash": "0xf6dc388cdee967e46600a3fdddb2ad49eba76aba381b3807ab83fcde87211d58",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2571,7 +2580,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -2630,12 +2640,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0c6cc1c6c95bb01c2af628c16d6b5f165f1d1c222b4606da96c63f989d3525e4",
+            "hash": "0x8bc9631615dc7e250175fc4f6d8fccf4b8e298cd974c48e554bdb3f0381cc8ca",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2995,7 +3005,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3062,12 +3073,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4d5c969715c08f10900fcf735cf75ce991049f4f9e5c46f36e2e538245deaaca",
+            "hash": "0xf5467f0d99f382f2f6ad4e75d5dd681315400eb4b5604af293d83a99a0002887",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3427,7 +3438,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3486,12 +3498,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc3197513bbfde4f2719496325ae2d1197b0f5c793940f4e4ac882da0539f8663",
+            "hash": "0x15bf35e50043202febfcd02ab408fff8bb9294063b6e2ff726bb9a3a512d5128",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -3912,7 +3924,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -3925,12 +3938,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x5dd1776dbda253b3b59be0d2728c37988ce8d1d3e238beb5bd69db3cebf81027",
+            "hash": "0x7a6cdb4dbc298803191ff984061d27e814f43d839d819cb312fa9dc8a582e559",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4344,7 +4357,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -4357,12 +4371,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8d48119f374eff088e96a28ba7aa8157fa3341867da15747c1d4d55b4ba5a3d0",
+            "hash": "0xc17050cea1b2c8ac42310fbb0733e2c519daddb7994c5ecf7889343f47de0aed",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -4775,7 +4789,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -4788,12 +4803,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x35c0c86e5176dd1d435d43643b1521df8e2e8bba0f6217b32b5a441b1fdafdf6",
+            "hash": "0xdfa1417397aa682c7f50b7cd6b12933d0f6b7d3e0f05146e35999655437b5930",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5199,7 +5214,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5212,12 +5228,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x576b62a90a2094528a83512e3211c0d75ee53efd876ed8fcf4469e3c58e4876f",
+            "hash": "0x13a89648bce6c639a4c38d1347e14c6526ebd21cf4e4bb050a73a1787208da83",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5531,7 +5547,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -5652,12 +5669,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x37d12797c26991985c85be075bfed79b4342cd9291354de57f282e35f3259662",
+            "hash": "0x5615b98cfd0bd0deab969370e43bf502e67d4cae14cae71a90c374c13aad1163",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -5971,7 +5988,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -6084,12 +6102,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8d40b14f42420b2f9f47d22969fca63907c7a3d29de896915306226ef88237be",
+            "hash": "0x9a77662028c448761bb13388c1a790457e6bc9b044bd73c81c92b62753ec5344",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6403,7 +6421,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -6516,12 +6535,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2c60a8f660cac7745b21503f815c50806d0b4f4878df8ccb20a2e3348599e99d",
+            "hash": "0x5d2b36c7f234c2e7dce325c16a18dbff0c507f6b3a27f58986e254f672e4338f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -6835,7 +6854,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -6940,12 +6960,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x161fd105a498223bb0db9368f87ab50475108e23a46e4279c6f8ff58ffb035cb",
+            "hash": "0x8aee3d3677dc3bbf50c944aee5e3c7cfd67832a55a2d73c9cfc47b47d112c772",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7312,7 +7332,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7378,7 +7399,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7391,12 +7413,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x574ab4d8e09191e825f09aefde725e265421bdf806fa7d226f85c38f19036868",
+            "hash": "0x743db2069371d244c5493c91024d2c8d53deb4db546699c8f9ed5e2c2ff3358b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -7763,7 +7785,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7822,7 +7845,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -7835,12 +7859,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa943bee0bb7dd22f25b828739f0a1538fe3105b0613743c97d4ab783194c725f",
+            "hash": "0x5bbd0ea4f6f2fa5e41cb63edf27e15f415e84f42ffb7faff398f09f95d776ca6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8200,7 +8224,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -8266,7 +8291,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -8279,12 +8305,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa9e746c9493586a0670e0ad093c0f71190e2e2f00555abb9ed2f61302a2d46f7",
+            "hash": "0x13257a8386de0c501d07bdafcf11ec3da11f3f121daf364a6def0ddaf272b58f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -8644,7 +8670,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -8703,7 +8730,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -8716,12 +8744,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdeeb7cd6416c316e85d2f2668a1b1491559462142d78e202cea61850c61595a5",
+            "hash": "0x0d51862e9d5fbc66f2f92ec100772a9b540f2b6d2049a3bf5607329e6f1e3d49",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -9088,7 +9116,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -9155,12 +9184,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x4c8da253ea6c3cb1d95db8bb14626095b7a865a78aff9d207462db1d27b4dc0a",
+            "hash": "0x2aee855897f4ea586cc70a5d8874d461d8f3d1c033f7b18c6d705f4857aeb843",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -9527,7 +9556,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -9586,12 +9616,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0c6cc1c6c95bb01c2af628c16d6b5f165f1d1c222b4606da96c63f989d3525e4",
+            "hash": "0x8bc9631615dc7e250175fc4f6d8fccf4b8e298cd974c48e554bdb3f0381cc8ca",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -9951,7 +9981,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -10018,12 +10049,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa11ed1bf636829dcd39fe3c70f24eb32d586e1873310afd1050809982e92683e",
+            "hash": "0xd9389138ba5dc385c4abbac7ffaf3df1b6fea7172aed78fe9808a1dbf1b2c3c2",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -10383,7 +10414,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -10442,12 +10474,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xc3197513bbfde4f2719496325ae2d1197b0f5c793940f4e4ac882da0539f8663",
+            "hash": "0x15bf35e50043202febfcd02ab408fff8bb9294063b6e2ff726bb9a3a512d5128",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -10868,7 +10900,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -10881,12 +10914,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2f4c7b064db40d440f80cae47cf743eb42db5a417546a1c4ded9c79c51fb7c20",
+            "hash": "0xdb2034ecce90928789d386e1d15606852a8b252fa6e39fa8b04e21fe34a5499c",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -11300,7 +11333,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -11313,12 +11347,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8d48119f374eff088e96a28ba7aa8157fa3341867da15747c1d4d55b4ba5a3d0",
+            "hash": "0xc17050cea1b2c8ac42310fbb0733e2c519daddb7994c5ecf7889343f47de0aed",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -11731,7 +11765,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -11744,12 +11779,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x6d7a651289aa33115f877eae02f9f74e9365ee54c83314777984f6f9ffed4a7c",
+            "hash": "0x3a1d2359a0d70dc5d933826f21492f61f93fb0dd21dabad61b0c316d1644203e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12155,7 +12190,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -12168,12 +12204,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x576b62a90a2094528a83512e3211c0d75ee53efd876ed8fcf4469e3c58e4876f",
+            "hash": "0x13a89648bce6c639a4c38d1347e14c6526ebd21cf4e4bb050a73a1787208da83",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12487,7 +12523,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -12608,12 +12645,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf0037868217a3ba4ed96ee60fb178ce23776df655a69dfa6b2a068ab955dd56c",
+            "hash": "0x4e9c710ff1179d7aa2c2d7deab37cdd5a711d4b694b7e0e93ba6cf49b159beb5",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -12927,7 +12964,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -13040,12 +13078,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x8d40b14f42420b2f9f47d22969fca63907c7a3d29de896915306226ef88237be",
+            "hash": "0x9a77662028c448761bb13388c1a790457e6bc9b044bd73c81c92b62753ec5344",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -13359,7 +13397,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -13472,12 +13511,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xfbd3c92cfc2585a88904229b3ccc26c457e965dae4f67b333c27a04c18372364",
+            "hash": "0xe0184ed94240329f9ab45d7175fde2067774ed074b09ef1ef9692de0b6c5932f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -13791,7 +13830,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -13896,12 +13936,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x161fd105a498223bb0db9368f87ab50475108e23a46e4279c6f8ff58ffb035cb",
+            "hash": "0x8aee3d3677dc3bbf50c944aee5e3c7cfd67832a55a2d73c9cfc47b47d112c772",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Check the gas difference when calling the contract directly vs as a pointer\n    Combine with AccessList and AuthTuple gas reductions scenarios.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L494",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

@@ -84,6 +84,17 @@
             }
         },
         "lastblockhash": "0x629a79fbebc8f80b494ccafe1e651d867ed30b2da5862e1232c2f5b78f42b23c",
+        "config": {
+            "network": "ShanghaiToCancunAtTime15k",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
         "engineNewPayloads": [
             {
                 "params": [
@@ -166,14 +177,19 @@
             }
         ],
         "_info": {
-            "hash": "0x522a88e884810892398b2a49ea177c27047dc5b34cdf3335fcf7308233f40f7d",
+            "hash": "0x5f2204376470062c4d6a1f181478a7396af5ba808e72f95be39082051b354853",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tests that the BLOBBASEFEE opcode results on exception when called before the fork and\n    succeeds when called after the fork.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/8fbca341fb0f3eb3a08a296e8f8fa84f233f4faa/tests/cancun/eip7516_blobgasfee/test_blobgasfee_opcode.py#L182",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip7516_blobgasfee/test_blobgasfee_opcode.py#L182",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7516.md",
-            "reference-spec-version": "2ade0452efe8124378f35284676ddfd16dd56ecd"
+            "reference-spec-version": "2ade0452efe8124378f35284676ddfd16dd56ecd",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "master",
+                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+            }
         }
     }
 }

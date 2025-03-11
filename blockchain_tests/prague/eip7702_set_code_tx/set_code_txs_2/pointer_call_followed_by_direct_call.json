@@ -280,7 +280,8 @@
                                 "v": "0x00",
                                 "r": "0xc975e08bd506eb09434c6162f16c4115224d6f7760fae99e3949798d8c2c1c35",
                                 "s": "0x2918292179188590f6f1508770cb45a305ac43d2465da14c64db52abafeb91e9",
-                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                                "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                                "yParity": "0x00"
                             }
                         ]
                     }
@@ -293,12 +294,12 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x945a86093cd1627dce6d430300eeefb72b9779c9c6e512a9f7c2be182bcd953a",
+            "hash": "0x99f8aa8e0aff089b7c3c3b44ccdbad769aa1ac474aa02bce394714909a62ab4a",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    If we first call by pointer then direct call, will the call/sload be hot\n    The direct call will warm because pointer access marks it warm\n    But the sload is still cold because\n    storage marked hot from pointer's account in a pointer call.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L720",
-            "fixture_format": "blockchain_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L720",
+            "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

@@ -49,7 +49,8 @@
                     "v": "0x00",
                     "r": "0xf0e3772fafdb4936697a032ec90c192889a79f72877395181edb2abd56f39239",
                     "s": "0x3dac523e5630e706f03b70443344d4e03f65001ba21f763460074ad16ef0eeae",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -107,12 +108,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xde0820f65cb015b34cf3dc6911b023cf04ebe93c58ccf653307c39cee71e8453",
+            "hash": "0xdd989c3d35b7554036cd3d4999bc69d4481099d61389a002d1a79af11956e790",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -172,7 +173,8 @@
                     "v": "0x01",
                     "r": "0xddf9d3484efa23448ee60d583ef6a8e1d040aba4a0701a58c5b4e49332f4ff56",
                     "s": "0x2c0e4bd3727618400ba72084fe5542b50cd81211c820066dcdaf679733a5c47f",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -230,12 +232,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x230c92b5dd3d7929ff7795253960837910f2ef11f9674ac26417619564a18c74",
+            "hash": "0xb4225f31009026bcb5d66ad7f37084fc1fd7165b6d0c6c078dd195feb4cdda4f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -295,7 +297,8 @@
                     "v": "0x00",
                     "r": "0x0c9983728824bf3762500902d40cbfb462afd9128cb1aac7988cd134c019211c",
                     "s": "0x33ca76d5111d321bd9fe5302f809ebd192a8ca5a27fb34115de7b3fd0ed8d9c4",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -353,12 +356,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xd45d1f2416522303649b5455638d7614004a5a9f099de1480292448871e63148",
+            "hash": "0x43d584a9138e7578bd628e51773a2ad0a707344bc642b70d386b90f2d7accaae",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -418,7 +421,8 @@
                     "v": "0x01",
                     "r": "0x431784db736d7a7b32afa2a06f9b2dd9b7947510fcfe270ea15c2ae08af9c7fc",
                     "s": "0x780ae64313ba535e023075c4b6ba0b292377005a380b83e0483cb71d70cdf9d1",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -476,12 +480,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x802c322a2d7d9b56a9f2550eec7defadade78eee8d17c8f17b31cdeda7246d13",
+            "hash": "0x9e8337df386fc9e13ca55c7504c02ae5e634031609d311a90bda7e8331738e7f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -541,7 +545,8 @@
                     "v": "0x01",
                     "r": "0x6b9db42d7c6570c419960efeb0ae642984f13c6416c281fff4ce6db9a8bfc3ab",
                     "s": "0x5b07be6406b95eb11118b9068138f0f2bdc178dd57a68b6ff789defdb0f2e92c",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -599,12 +604,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x4c1acc7513f607593e92f94c0ed7e143c913be35fc553f98b4e03f6a21f74371",
+            "hash": "0xc7c09a257055534a333ac5299ff0d1036755f7cddad75d01fe859c7ff5220a11",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -664,7 +669,8 @@
                     "v": "0x00",
                     "r": "0xb174ef21bd10219fdf2c953e611b08b4babc807e4518715fdf8b576976bdcf63",
                     "s": "0x315d03c9f165700a7dcd0b7aac9c2e2c11ac320b0a5eced2d6af26c325d23214",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -722,12 +728,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xd41928692b783f51b109f001e5ac0dc983033b0f6192e78e345dac7ddf8b3849",
+            "hash": "0xfeb74ac7352eda0173d86016b355132c25846b926062a84f6e24281bf0221a00",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -787,7 +793,8 @@
                     "v": "0x01",
                     "r": "0x1e1058cd5447114218b0102049812c5ddfad2dfae0d145ab04e0fd8c79b0ca3b",
                     "s": "0x6c6578267b31a0859d3c60932796cd26b7361111bdf3065602cb590e0ef4cb10",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -845,12 +852,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x4a8920d75d2df05f574fcb6e4880498a65bd0771e992cda21aad6bff32e71075",
+            "hash": "0xe14203ad7317d0b6f3b8bcc8e1eb65d066efe32b96bb167e0749c1e2235e9f41",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -910,7 +917,8 @@
                     "v": "0x00",
                     "r": "0xefa8c53ebf5f9cd9eb6dc06fe33cda932e12fa0475d3dddf6ed0ddeec9a042ac",
                     "s": "0x11456089a7fff77121721cfc7f4de3b3d5a9dd78e35b6c8ef3e4822a59a0337d",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -968,12 +976,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x0770ea4e2a2de0e110249d8213f755bceb5d0720150778ec937d26904b1ee7c0",
+            "hash": "0x9f614b952fee24eb54d26fbb68829b1178270f8ac3a5fbcb143d3d6ea72640f7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1033,7 +1041,8 @@
                     "v": "0x00",
                     "r": "0xdcc3f421b290d50ead20f56917b0f9c8fe214635513cd72c5535b8dde54377a8",
                     "s": "0x14af708caf1eb78fd46db017e207090afb8f658215c5db42ad798b488db0bff3",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1091,12 +1100,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xfcb2ae2bacd7807668854a374d50188a67d26b163273af62177ec46a801227a9",
+            "hash": "0x26060a919c66ae595698190c22ec8b5290a930df63dd1adf0ee278019147c5de",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1156,7 +1165,8 @@
                     "v": "0x01",
                     "r": "0x7b2e4d0d77a3dc44513d20d44c8500e4569f2edf868798552146c2887511cb6f",
                     "s": "0x32ae0908c2249a2bbe5ffa4e52746df754ebdf8f15ccb2d76d6cc966b542b6d0",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1214,12 +1224,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x0d918fc9ed41ff6c20a144e5975fc8cd800b15ebd90ae09241f0f0a0b5f837b1",
+            "hash": "0x7318e9d404b8cdfe54a5b764918d1a12cb93376145402f62d646948f73989b9e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1279,7 +1289,8 @@
                     "v": "0x00",
                     "r": "0x5f506e1f85df584ce94c7ea344e0830adb346193e6b48c1325dcbb65a55b1b6f",
                     "s": "0x3ec52a74af7b7cbc9dd68e2fa2b9dd5c5769b79feed307e4bc24e2d619df6fbd",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1337,12 +1348,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x8977516bea2a0773b0b86cece94ecf4029a4d89e8f7f21b550135c472126add6",
+            "hash": "0x69036cca3f097eda4d28a80485e169b758f3735fe8c3ec1da2d39676f88fe803",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1402,7 +1413,8 @@
                     "v": "0x01",
                     "r": "0x05890226d22feca5d3c591d85c7852be6927cddb92b72c139c0af834ae801bb8",
                     "s": "0x5800ce3862b5a55c633d6974c15c35bcde3710315786087d26324c08a9dd6cde",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1460,12 +1472,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x9d6b31b7c6d8f45b3eb20fb611dfc3cf25794e02ae8c7269cb5c9f5cb8f1285c",
+            "hash": "0xc4802164c726b327e6581927bc971ae1b6610d9fd8e57ed4ea43c525be7972f3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1525,7 +1537,8 @@
                     "v": "0x01",
                     "r": "0x69b8187e300651a98e1049279d487ce3db32540819c20d35987d84f819adbb6c",
                     "s": "0x307a8fbc5195fccbca28b667ce8ad5b87261772eae1fb229b80796a6858060c8",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1583,12 +1596,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x5faa583498f6ec946b1fba747a9b776a11282bafe9a99c5d0a3dbbdd1649dd4e",
+            "hash": "0xe90e6eb49f429610490c771397151cc7c7e53ed15d415fc78663291d2a3503fa",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1648,7 +1661,8 @@
                     "v": "0x00",
                     "r": "0xcefcb8f6e62c83b0666bdc3d2275e744fa95f4fb5f65b2ab5438b2747b135904",
                     "s": "0x4ca9608f6c6f9a20596f6b26784971beb3b42dddfc191eeff12b7b52236e33ed",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1706,12 +1720,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x5bb31fccbe4426855d0ced1cd24b0e571243b60c75fba1c06fdbf61c66183c3e",
+            "hash": "0xf616ba3b70f4d326fe11964fa8faa6b7520889f134d89f991198bb7e83d3e70e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1771,7 +1785,8 @@
                     "v": "0x00",
                     "r": "0xbe22b54454140a79e83d17b7920cd2411e9bb3ce4fc2b63a3a9b53e1152209a8",
                     "s": "0x5f4ae1aa45b0e3428d910be814741b7c742006995c6017bcdf0183632e7273a0",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1829,12 +1844,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xc68cee7997e01f94032b8beef7873b6d50ef099df8f7f43ddbb11a6ec34d2170",
+            "hash": "0xdc5906fd20d4d192b3b6de56ca74f140252001007534ce00303ae103317826a4",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -1894,7 +1909,8 @@
                     "v": "0x01",
                     "r": "0x9531cc185abbefee3e6814a5cf10ce99a1e688f1d21b0740d1489dad208fb93f",
                     "s": "0x1f022a01dab73cddf08cee545dc2d66a1666887cc68547019f6afef79df9ba00",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -1952,12 +1968,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xbedc66da8a46ab0a2391c1653c4f6450b569344833b2250420762f5238097436",
+            "hash": "0xb1746615c7f06bfa9fa6e223c8f3334c38cb4c26eae91fa25fa2fc77c79e1e90",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -2017,7 +2033,8 @@
                     "v": "0x01",
                     "r": "0xa4704e05bd37efdab40dca5f1856eef6c0790961256c95f2c9167c21b69b313a",
                     "s": "0x204647ff0c7d0b4570e99f37e48ad6cdf07bf44e8fb729a3fdd1db3bf189b610",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -2075,12 +2092,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xd0d1dd43e7370bc23361d39a57028b4b37ec766a75d6d55d83900fefa35b81cf",
+            "hash": "0xd96e1f5ac5416009e9016ecf6960a6a0862825f830c863ccbb64f3bf22997375",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest setting the code of an account to a pre-compile address.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2529",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2516",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

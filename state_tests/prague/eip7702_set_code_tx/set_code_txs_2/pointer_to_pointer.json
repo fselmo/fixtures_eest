@@ -61,7 +61,8 @@
                     "v": "0x01",
                     "r": "0xcbafe302a607124683e92b77eba2dc2d04d245ce1f494e4984e03cffa2c0d9d3",
                     "s": "0x7cfc3dc86f258125daf4308589530d9c5b1196e3d5c9ea857f84abb0fa5abc2c",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -70,7 +71,8 @@
                     "v": "0x01",
                     "r": "0x17e1c21dbadcd17a27c8bec52b82b7e918a76e894ea7468ae1286d392ad2dd13",
                     "s": "0x426deeffce74d1285ec225e969bffc1715e7321712e15c3b15b300cdeb0679ae",
-                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71"
+                    "signer": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
@@ -132,12 +134,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x46248bd4250892a668e78f7b4e5458c8616e483fae604dd938f7afa184dfa955",
+            "hash": "0xc1923765507f99fe5b3d1ddbcb8d29477bff67278d993ce6f76267e538250356",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tx -> call -> pointer A -> pointer B.\n\n    Direct call from pointer to pointer is OOG",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L91",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L91",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

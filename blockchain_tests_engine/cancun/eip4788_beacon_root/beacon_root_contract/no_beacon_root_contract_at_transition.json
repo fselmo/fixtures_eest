@@ -64,6 +64,17 @@
             }
         },
         "lastblockhash": "0x69eb139342e205104a7db0fc28a5a4cc7afc4dc9026c927128fe65f78ab01c89",
+        "config": {
+            "network": "ShanghaiToCancunAtTime15k",
+            "chainid": "0x01",
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                }
+            }
+        },
         "engineNewPayloads": [
             {
                 "params": [
@@ -109,14 +120,19 @@
             }
         ],
         "_info": {
-            "hash": "0x4e7ac74d5dfc78e46bba3acf5431062de01ed08f9d2b2ed25f7ccbadccaa5366",
+            "hash": "0xfabac329a7597d820833b0269f94fc8fbb4abc0c297048687daddbfaefe9fd07",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Tests the fork transition to cancun in the case where the beacon root pre-deploy was not\n    deployed in time for the fork.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/8fbca341fb0f3eb3a08a296e8f8fa84f233f4faa/tests/cancun/eip4788_beacon_root/test_beacon_root_contract.py#L579",
-            "fixture_format": "blockchain_test_engine",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip4788_beacon_root/test_beacon_root_contract.py#L579",
+            "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4788.md",
-            "reference-spec-version": "e7608fe8ac8a60934ca874f5aab7d5c1f4ff7782"
+            "reference-spec-version": "e7608fe8ac8a60934ca874f5aab7d5c1f4ff7782",
+            "eels-resolution": {
+                "git-url": "https://github.com/ethereum/execution-specs.git",
+                "branch": "master",
+                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+            }
         }
     }
 }

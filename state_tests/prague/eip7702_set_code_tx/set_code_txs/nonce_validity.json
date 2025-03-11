@@ -61,7 +61,8 @@
                     "v": "0x00",
                     "r": "0xdbcff17ff6c249f13b334fa86bcbaa1afd9f566ca9b06e4ea5fab9bdde9a9202",
                     "s": "0x5c34c9d8af5b20e4a425fc1daf2d9d484576857eaf1629145b4686bac733868e",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -125,12 +126,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xf34b4960bf886be593df1976f3704c4ab07279b2b4ce268daa1ad6690ad7eef4",
+            "hash": "0x02e98878d13480d2ffe2a38ce3a3e8f76a8dbc2dd9ad71a7034afee6d78cf475",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction where the nonce field of an authorization almost overflows the\n    maximum value.\n\n    Also test calling the account of the authorization signer in order to verify that the account\n    is not warm.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2316",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2303",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -196,7 +197,8 @@
                     "v": "0x01",
                     "r": "0xe074be204a558063cc3b2663e24e82272a436cececd74a3d6c7f46cd51934f2f",
                     "s": "0x1dba64504e6de332f9b00fba50b9cd8b70fc19823a85e33217431a0825e55902",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -254,12 +256,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x3656bd164400939bd492346e98b83f6324c76d6d9e1373a485a4e064ef555a10",
+            "hash": "0xa245df8d14eaf2def10e48968403d1f5cd51c6ebfd08346d700b7587824f70aa",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction where the nonce field of an authorization almost overflows the\n    maximum value.\n\n    Also test calling the account of the authorization signer in order to verify that the account\n    is not warm.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2316",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2303",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -331,7 +333,8 @@
                     "v": "0x00",
                     "r": "0xb783921fbc1861d2477f74b42a061acf02279743f75f03d382562eff4806bcf8",
                     "s": "0x40b3271ff128f6ea5abbbd4906534c5088321817309b04dcbb1c339dcb777636",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -395,12 +398,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x0d1d1c1ac78efe83eef78fde3e99ca052f7322923931edb90f2f38a1d31b2779",
+            "hash": "0x550f63ccd8bcd1760b013793ba457ea5c7b4cbae26dea96dbff0829dca64bd76",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction where the nonce field of an authorization almost overflows the\n    maximum value.\n\n    Also test calling the account of the authorization signer in order to verify that the account\n    is not warm.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2316",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2303",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
@@ -472,7 +475,8 @@
                     "v": "0x01",
                     "r": "0xf356020afd2bfe839a758bdd67454dd9cf763ab2a44714beb99ab0d918d409cf",
                     "s": "0x0cb65b317b26e7adc61b60709fd61163ac53602a22ba672dbc4359011eb68b0f",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -537,12 +541,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xd72635537765c08baee0f950b50c4078bd78e2b9720ba1650ee78c04fdfc8602",
+            "hash": "0x21693286f984081464e7fe9fcb6a4d6196a13b114ffb6ff4bccbdc263b8ce936",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test sending a transaction where the nonce field of an authorization almost overflows the\n    maximum value.\n\n    Also test calling the account of the authorization signer in order to verify that the account\n    is not warm.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2316",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2303",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

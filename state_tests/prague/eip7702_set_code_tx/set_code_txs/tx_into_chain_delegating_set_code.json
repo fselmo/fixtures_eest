@@ -43,7 +43,8 @@
                     "v": "0x01",
                     "r": "0x2fdae69e3d7a08e437baa33b7d32781ea30f6cd671e38d700e0089ccb0be9f9d",
                     "s": "0x204aea5f46d068028a6bea3d71ec0fdb995634117e1ea369277f2b2fecd2a024",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x01"
                 },
                 {
                     "chainId": "0x00",
@@ -52,7 +53,8 @@
                     "v": "0x01",
                     "r": "0x0c2ee9c1e1059b691b29ee396914a961a0e380c6c21c63a57a23412df3892aa5",
                     "s": "0x478c980f27d508ffa8ec6aa3f61a5819c7d85c948924d5885d1518b1a98c0cb1",
-                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8"
+                    "signer": "0x8a0a19589531694250d570040a0c4b74576919b8",
+                    "yParity": "0x01"
                 }
             ],
             "sender": "0x6389e7f33ce3b1e94e4325ef02829cd12297ef71",
@@ -108,12 +110,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0x0fda06164e1ca562fcb1545c77f48df4f704abe66ba40349f5b4d22ebfae3404",
+            "hash": "0xb4081290016f6d73937cb5d902ec5136548dce508e87aa9c7386d16a30e0b940",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test a transaction that has entry-point into a set-code account that delegates to another\n    set-code account.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L876",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L863",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {

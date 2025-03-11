@@ -49,7 +49,8 @@
                     "v": "0x00",
                     "r": "0xae1ac344585e4554f124daff114b7a7778477fa5922bc630b1e6c8ecd4d2d075",
                     "s": "0x0d1118f7f77fa8c7e869405c64225e1df941ab51a15c329ee932450782bb6c33",
-                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+                    "signer": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                    "yParity": "0x00"
                 }
             ],
             "sender": "0x8a0a19589531694250d570040a0c4b74576919b8",
@@ -107,12 +108,12 @@
             "chainid": "0x01"
         },
         "_info": {
-            "hash": "0xadc2baeb9c9f6270a6385f6c9cd6d1e30bda1c542d1191be271725741012dfce",
+            "hash": "0x0705d1fb5ad9ff67494ff0a72bc41570660d5f3ecc0ce72284aa6e3168807c02",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest sending a transaction to set the code of an account using a chain-specific ID.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/2c4d277d2fb7d97333c089b0718ac8d26a95d523/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2022",
-            "fixture_format": "state_test",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L2009",
+            "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",
             "eels-resolution": {
