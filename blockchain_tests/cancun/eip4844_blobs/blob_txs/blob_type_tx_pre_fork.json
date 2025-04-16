@@ -119,14 +119,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
@@ -252,14 +252,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     }

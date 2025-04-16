@@ -486,7 +486,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    So in Block1 we create a sender with empty code, but non empty storage using pointers\n    In Block2 we create account that perform suicide, then we check that when calling\n    a pointer, that points to newly created account and runs suicide,\n    is not deleted as well as its storage.\n\n    This one is a little messy.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1537",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7702_set_code_tx/test_set_code_txs_2.py#L1537",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "4334df83395693dc3f629bb43c18320d9e22e8c9",

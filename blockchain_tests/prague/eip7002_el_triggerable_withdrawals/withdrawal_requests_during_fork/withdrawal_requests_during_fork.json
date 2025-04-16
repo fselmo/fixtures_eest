@@ -452,7 +452,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest making a withdrawal request to the beacon chain at the time of the fork.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7002_el_triggerable_withdrawals/test_withdrawal_requests_during_fork.py#L34",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7002_el_triggerable_withdrawals/test_withdrawal_requests_during_fork.py#L34",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7002.md",
             "reference-spec-version": "25cca6506df8370157513e4e864fd174cafd3562",

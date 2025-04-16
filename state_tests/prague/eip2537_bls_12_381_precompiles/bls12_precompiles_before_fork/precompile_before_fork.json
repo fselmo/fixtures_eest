@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--G1ADD]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--G1ADD]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -92,18 +92,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--G1MSM]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--G1MSM]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -196,18 +196,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--G2ADD]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--G2ADD]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -300,18 +300,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--G2MSM]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--G2MSM]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -404,18 +404,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--MAP_FP2_TO_G2]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--MAP_FP2_TO_G2]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -508,18 +508,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--MAP_FP_TO_G1]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--MAP_FP_TO_G1]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -612,18 +612,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     },
-    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_CancunToPragueAtTime15k-state_test--PAIRING]": {
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py::test_precompile_before_fork[fork_Cancun-state_test--PAIRING]": {
         "env": {
             "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentGasLimit": "0x016345785d8a0000",
@@ -716,14 +716,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
-                "commit": "78fb726158c69d8fa164e28f195fabf6ab59b915"
+                "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
             }
         }
     }
