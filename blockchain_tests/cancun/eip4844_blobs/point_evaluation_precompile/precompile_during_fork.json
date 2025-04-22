@@ -787,7 +787,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest calling the Point Evaluation Precompile during the appropriate fork.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_point_evaluation_precompile.py#L636",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_point_evaluation_precompile.py#L636",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",

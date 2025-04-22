@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_deposit_withdrawal_consolidation_request_from_same_tx[fork_Prague-blockchain_test-consolidation+deposit+withdrawal]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_multi_type_request_from_same_tx[fork_Prague-blockchain_test-consolidation+deposit+withdrawal]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -271,18 +271,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test making a deposit to the beacon chain deposit contract and a withdrawal in\n    the same tx.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L345",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L343",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_deposit_withdrawal_consolidation_request_from_same_tx[fork_Prague-blockchain_test-consolidation+withdrawal+deposit]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_multi_type_request_from_same_tx[fork_Prague-blockchain_test-consolidation+withdrawal+deposit]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -554,18 +554,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test making a deposit to the beacon chain deposit contract and a withdrawal in\n    the same tx.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L345",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L343",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_deposit_withdrawal_consolidation_request_from_same_tx[fork_Prague-blockchain_test-deposit+consolidation+withdrawal]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_multi_type_request_from_same_tx[fork_Prague-blockchain_test-deposit+consolidation+withdrawal]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -837,18 +837,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test making a deposit to the beacon chain deposit contract and a withdrawal in\n    the same tx.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L345",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L343",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_deposit_withdrawal_consolidation_request_from_same_tx[fork_Prague-blockchain_test-deposit+withdrawal+consolidation]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_multi_type_request_from_same_tx[fork_Prague-blockchain_test-deposit+withdrawal+consolidation]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1120,18 +1120,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test making a deposit to the beacon chain deposit contract and a withdrawal in\n    the same tx.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L345",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L343",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_deposit_withdrawal_consolidation_request_from_same_tx[fork_Prague-blockchain_test-withdrawal+consolidation+deposit]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_multi_type_request_from_same_tx[fork_Prague-blockchain_test-withdrawal+consolidation+deposit]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1403,18 +1403,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test making a deposit to the beacon chain deposit contract and a withdrawal in\n    the same tx.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L345",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L343",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_deposit_withdrawal_consolidation_request_from_same_tx[fork_Prague-blockchain_test-withdrawal+deposit+consolidation]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_valid_multi_type_request_from_same_tx[fork_Prague-blockchain_test-withdrawal+deposit+consolidation]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1686,14 +1686,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test making a deposit to the beacon chain deposit contract and a withdrawal in\n    the same tx.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L345",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L343",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     }

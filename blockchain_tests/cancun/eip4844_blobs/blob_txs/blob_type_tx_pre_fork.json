@@ -119,7 +119,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1344",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
@@ -196,7 +196,7 @@
         "blocks": [
             {
                 "rlp": "0xf902aaf90219a093ba1d150a1d1016c13e30e068f95a491288910b7688ac42aa2805f4fac05f20a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa07fab0d9bb5daf1b7c053b0c3b218fedef9522118a58e8f067965f20c9626f139a02a76afdfa881146278980398e5126b0ad060e0d83c40a6bd598ea8ac1ac7c6f4a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800188016345785d8a0000808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421f88ab88803f88501808007825208948a0a19589531694250d570040a0c4b74576919b80180c001e1a0010000000000000000000000000000000000000000000000000000000000000001a06c120e55aeb31122c5caad29e69d28ec90abb71e089e0cdf4aebbf51bbc46a89a067983552dabf029ffb7ac58209a620d4a98eeeaf3df55bc9eb8e7684051ac70ac0c0",
-                "expectException": "TransactionException.TYPE_3_TX_PRE_FORK",
+                "expectException": "TransactionException.TYPE_3_TX_PRE_FORK|BlockException.INVALID_VERSIONED_HASHES",
                 "rlp_decoded": {
                     "blockHeader": {
                         "parentHash": "0x93ba1d150a1d1016c13e30e068f95a491288910b7688ac42aa2805f4fac05f20",
@@ -248,11 +248,11 @@
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xeca4ce48cbad9e26552f3e8d0399ef3aa488b4a15288930d6eb92de254f3391a",
+            "hash": "0x00e976b97111bcbbbb53c381018c9ab72e6951d69ffa11557574e5f4f91e454e",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1344",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",

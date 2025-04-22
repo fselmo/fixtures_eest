@@ -94,7 +94,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1344",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",
@@ -192,15 +192,15 @@
                 ],
                 "newPayloadVersion": "2",
                 "forkchoiceUpdatedVersion": "2",
-                "validationError": "TransactionException.TYPE_3_TX_PRE_FORK"
+                "validationError": "TransactionException.TYPE_3_TX_PRE_FORK|BlockException.INVALID_VERSIONED_HASHES"
             }
         ],
         "_info": {
-            "hash": "0x16093be25149ea68594f7f678e6d78ece47307fda05cab383a9b3dc65b457316",
+            "hash": "0xedbebc9b252c7b03d072bba42f363aa1a5354c67e8d658f3c8ed51c8f4c4f169",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Reject blocks with blob type transactions before Cancun fork.\n\n    Blocks sent by NewPayloadV2 (Shanghai) that contain blob type transactions, furthermore blobs\n    field within NewPayloadV2 method must be computed as INVALID, due to an invalid block hash.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1318",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/cancun/eip4844_blobs/test_blob_txs.py#L1344",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "de2e4a46ad93fc04e6fe3174dc6e90a3307bdb5f",

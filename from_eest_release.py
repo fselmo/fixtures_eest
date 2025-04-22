@@ -23,6 +23,13 @@ parser.add_argument(
     ),
 )
 
+# clean existing fixtures directories
+os.system("rm -rf blockchain_tests")
+os.system("rm -rf blockchain_tests_engine")
+os.system("rm -rf state_tests")
+os.system("rm -rf transaction_tests")
+os.system("rm -rf .meta")
+
 args = parser.parse_args()
 eest_version = args.eest_version.replace("v", "")
 fixtures_type = "stable" if args.stable else "develop"

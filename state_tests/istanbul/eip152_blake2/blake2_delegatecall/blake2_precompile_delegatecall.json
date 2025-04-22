@@ -81,7 +81,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
@@ -184,7 +184,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
@@ -279,7 +279,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
@@ -372,7 +372,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
@@ -466,7 +466,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
@@ -561,7 +561,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
@@ -569,6 +569,114 @@
                 "git-url": "https://github.com/ethereum/execution-specs.git",
                 "branch": "master",
                 "commit": "fa847a0e48309debee8edc510ceddb2fd5db2f2e"
+            }
+        }
+    },
+    "tests/istanbul/eip152_blake2/test_blake2_delegatecall.py::test_blake2_precompile_delegatecall[fork_Prague-state_test]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x0000000000000000000000000000000000001000": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x600060006000600060096001f460005500",
+                "storage": {
+                    "0x00": "0xdeadbeef"
+                }
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0x015f90"
+            ],
+            "to": "0x0000000000000000000000000000000000001000",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0x44c5147eeb9077fc7116c2728a6e551894e17f6b77ea4ee3c67009c11e52d57d",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83015f90940000000000000000000000000000000000001000808025a0b61c2c70a76cc5d3233f1c1294d3b114eb58b793b237b4fac4111fd0db376a89a056483dd2ead12cf26b1ea54869cacb52b609df1734f265b9f11e99efc10a538c",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x0000000000000000000000000000000000001000": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x600060006000600060096001f460005500",
+                            "storage": {}
+                        },
+                        "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de9cbf1c",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0xf9de",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x6d8aacbc3e1d5e2a6f00f08b0336d7072a1e9e10b2f928a6bbf8d87289c7b96c",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
+            "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
+            "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",
+            "eels-resolution": {
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -656,7 +764,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTest delegatecall consumes specified gas for the Blake2B precompile when it exists.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/istanbul/eip152_blake2/test_blake2_delegatecall.py#L22",
             "fixture-format": "state_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-152.md",
             "reference-spec-version": "2762bfcff3e549ef263342e5239ef03ac2b07400",

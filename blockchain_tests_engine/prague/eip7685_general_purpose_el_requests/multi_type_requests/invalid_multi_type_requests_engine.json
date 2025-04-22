@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-duplicate_consolidation_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-duplicate_consolidation_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -215,27 +215,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x36b910df6cf13ffc8bdf7d2a4da498ae423e686a3cffdc8edd01b4aa62a9907e",
+            "hash": "0x205495af18731ede5805a5de507c654cee9a2a6d4c48b8b18aeee142ea37f4d6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-duplicate_deposit_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-duplicate_deposit_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -451,27 +451,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0xb8ad59d08502ead68e692db5ab66e57a9ab72cd7380b3bcdfd4ddb19eb797827",
+            "hash": "0x7eb2b45a802273ebb1f953438b8cab897054a5bb0d86a972fb73bcbeb42883de",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-duplicate_withdrawal_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-duplicate_withdrawal_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -687,27 +687,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0xc99e2f7da66ed36b945018c7c5a6810bed4f91a172652f850440d3c9fdac07ca",
+            "hash": "0x17ffc3ad7cb1ce85d1fc9813bfa73c411ae76f3728437c591719b310a17d8a73",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-extra_empty_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-extra_empty_request-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -951,27 +951,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x64c3cd0df299d3aaf2349cb4ea3ec0d6fd980e77ebf9a941060edbf2c36d65c3",
+            "hash": "0xfbd4e8440e501a7f40c75975af1b59fba8f9281cc79b3350cd85d64b8c0bb421",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-extra_invalid_type_request_with_data_0x00-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-extra_invalid_type_request_with_data_0x00-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1215,26 +1215,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0xe220cd88ceceb2f7abbea9b355e78bb44fab5c5820f308e7e8e06c8ff71bea80",
+            "hash": "0x3b40779b9ef63f22c2d260882d86d1108189a15565bf97a6ecbb39a3db6290c7",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-extra_invalid_type_request_with_data_0x01-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-extra_invalid_type_request_with_data_0x01-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1478,26 +1478,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0xa466a15fb939b7b84e2059f6e58273f7fbd8ad7ff1767b405d67eb9da74b4d46",
+            "hash": "0xdc7d9dcf3d99f8ffce598d2d6d0a9fd7a519bf1db26c143587ddf92869cbbb77",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-extra_invalid_type_request_with_data_0xff-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-extra_invalid_type_request_with_data_0xff-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1741,26 +1741,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0x44b1d64fc7fcd63c6fbac7eb05f7a6ec44419f288a7c2f62a3734b3a91163771",
+            "hash": "0x4490e92a6d9b07c81ff73d8bbb31e4176ff79418c2cf03f548c7f402695819b5",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-extra_invalid_type_request_with_no_data-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-extra_invalid_type_request_with_no_data-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2004,27 +2004,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x3ca12eaa08466f7ed5402226abf85bb9b7143b08591cf611c5d03ef5a28b641f",
+            "hash": "0x22eabe0e5bdc68cc6cadcb58eab25330fea1e2da725240a4faaf8ef15c931925",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-incorrect_order_first_request_at_end-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-incorrect_order_first_request_at_end-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2267,27 +2267,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x5ba62b31cb70114302329eed5f0059e95184d187b658c1f6cb87c7a5672c46ed",
+            "hash": "0xeb3da1059ed92e78e841972fd4754d804f1250458dd6a18a31e1ce24c7a59ba8",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-incorrect_order_last_request_at_beginning-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-incorrect_order_last_request_at_beginning-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2530,27 +2530,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x6d5e01dc5e68dc46237578d0d8cf442239935d79f911106b945428215a3a91c3",
+            "hash": "0x7d40ce438e5d3752e0d2c63b34d77edf1008ceab8b9ef9daf22b26afbc8ca58b",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-incorrect_order_second_request_at_end-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-incorrect_order_second_request_at_end-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2793,27 +2793,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x8884c6e4ae6cdbe284fe750b17268d56df0cf52c0696f36d31be3b2af39fbc27",
+            "hash": "0x43d5ecb51381a666e2717457108e3af6e56db2fea9ee461f8a273ae38fca53e9",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-no_requests_invalid_hash_calculation_method-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-no_requests_and_invalid_hash_calculation_method-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3016,27 +3016,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0xf48398df0923e88fa3d0742822f43e41da71085e67887c1a0ddfd6ee212dddc0",
+            "hash": "0x96f2c903b0833b516a50b3ceb5827392c6942ddbe6894fd7c19f130d0de73c99",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-no_requests_invalid_hash_calculation_method_2-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-no_requests_and_invalid_hash_calculation_method_2-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3239,27 +3239,27 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS",
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH",
                 "errorCode": "-32602"
             }
         ],
         "_info": {
-            "hash": "0x3999f28732c8ab31306183daac18de155c757622f6810ea1da4790753e545381",
+            "hash": "0x47bde9fe7d2d6bb29ce62a46eab7a70206632c2dc26947562017d4a19774846f",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-single_consolidation_empty_requests_list-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-single_consolidation_empty_requests_list-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3472,26 +3472,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0x20dd71833b77dad0094e185bebd397bfee9465a10cc3605b9276718d00a9cdf2",
+            "hash": "0x54c4142f4d2ba00c96e06066e96bf03fac28eaf595b03ee5a2e98e2cff1fba22",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-single_consolidation_missing_type_byte-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-single_consolidation_missing_type_byte-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3706,26 +3706,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0x64353e5bb9fa347807b6a98bc6a22d5cf759b04f2e0f9ea9d3baa7d2d28ca599",
+            "hash": "0x13afc0cc96f1ad480d6618975454d23a33aa4ada2be965ca20fb5a770364e3a6",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-single_deposit_empty_requests_list-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-single_deposit_empty_requests_list-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3938,26 +3938,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0x46e347d69578777e7d6f245f184895dbe6c0c44e041265a3ba9a98bd1661103f",
+            "hash": "0x93776ae5828f773b09d028725f101adfd995714754bdb61f192c6d30f99f9876",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-single_deposit_missing_type_byte-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-single_deposit_missing_type_byte-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4172,26 +4172,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0xcef67610d09ed26157cc829a0d911aafe8587f0a1e4fa4093e07a4835b05d979",
+            "hash": "0x0ed5953461bb1b916cb7e4614dd0235ef779ea8100a23a23a672ec6a65caf1f3",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-single_withdrawal_empty_requests_list-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-single_withdrawal_empty_requests_list-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4404,26 +4404,26 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0xb96724472c10a7be0332d372cf1595a9f30c1f4845b0eb85ede18de457e7339f",
+            "hash": "0x380d466c18e384be7719a62b882a3c5f34d65564a0953c466260a8ff223a2b00",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py::test_invalid_deposit_withdrawal_consolidation_requests_engine[fork_Prague-single_withdrawal_missing_type_byte-blockchain_test_engine-correct_requests_hash_in_header_True]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests_engine[fork_Prague-single_withdrawal_missing_type_byte-blockchain_test_engine-correct_requests_hash_in_header_True]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4638,22 +4638,22 @@
                 ],
                 "newPayloadVersion": "4",
                 "forkchoiceUpdatedVersion": "3",
-                "validationError": "BlockException.INVALID_REQUESTS"
+                "validationError": "BlockException.INVALID_REQUESTS|BlockException.INVALID_BLOCK_HASH"
             }
         ],
         "_info": {
-            "hash": "0xff7ef172326e40422c1affd85acb8dc21827efe9988a11436f94cb8490a3d160",
+            "hash": "0xd9bbec7aa272079e3af153b368817f7accffaaefc75f518549e8a44faef81488",
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
-            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_deposit_withdrawal_consolidation_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.1.0/tests/prague/eip7685_general_purpose_el_requests/test_deposits_withdrawals_consolidations.py#L523",
+            "description": "Test function documentation:\n\n    Negative testing for all request types in the same block with incorrect parameters\n    in the Engine API new payload parameters, but with the correct requests hash in the header\n    so the block hash is correct.\n\n    In these tests, the requests hash in the header reflects what's actually in the executed block,\n    so the block might execute properly if the client ignores the requests in the new payload\n    parameters.\n\n    Note that the only difference between the engine version produced by this test and\n    the ones produced by `test_invalid_multi_type_requests` is the\n    `blockHash` value in the new payloads, which is calculated using different request hashes\n    for each test, but since the request hash is not a value that is included in the payload,\n    it might not be immediately apparent.\n\n    Also these tests would not fail if the block is imported via RLP (syncing from a peer),\n    so we only generate the BlockchainTestEngine for them.\n\n    The client also might reject the block with an invalid-block-hash error because it might\n    convert the requests in the new payload parameters to the requests hash in the header\n    and compare it with the block hash.",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L643",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     }

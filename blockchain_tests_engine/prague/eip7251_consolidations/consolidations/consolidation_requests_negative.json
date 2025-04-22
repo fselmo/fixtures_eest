@@ -208,14 +208,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -440,14 +440,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -674,14 +674,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -908,14 +908,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -1142,14 +1142,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -1376,14 +1376,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -1610,14 +1610,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
@@ -1845,14 +1845,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Test blocks where the requests list and the actual consolidation requests that happened in the\n    block's transactions do not match.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7251_consolidations/test_consolidations.py#L553",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7251_consolidations/test_consolidations.py#L673",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7251.md",
             "reference-spec-version": "cc6ed420006c13b6ef64b7987badc2966ad4508f",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     }

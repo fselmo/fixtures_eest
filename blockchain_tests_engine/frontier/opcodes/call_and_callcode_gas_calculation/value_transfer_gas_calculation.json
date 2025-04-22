@@ -96,7 +96,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -210,7 +210,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -316,7 +316,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -424,7 +424,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -532,7 +532,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -648,7 +648,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -756,7 +756,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",
@@ -866,7 +866,7 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\nTests the nested CALL/CALLCODE opcode gas consumption with a positive value transfer.",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py#L138",
             "fixture-format": "blockchain_test_engine",
             "eels-resolution": {
                 "git-url": "https://github.com/ethereum/execution-specs.git",

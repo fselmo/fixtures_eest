@@ -1,5 +1,5 @@
 {
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-duplicate_consolidation_request-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-duplicate_consolidation_request-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -224,18 +224,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-duplicate_deposit_request-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-duplicate_deposit_request-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -460,18 +460,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-duplicate_withdrawal_request-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-duplicate_withdrawal_request-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -696,18 +696,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-extra_empty_request-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-extra_empty_request-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -960,18 +960,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-extra_invalid_type_request_with_data_0x00-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-extra_invalid_type_request_with_data_0x00-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1223,18 +1223,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-extra_invalid_type_request_with_data_0x01-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-extra_invalid_type_request_with_data_0x01-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1486,18 +1486,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-extra_invalid_type_request_with_data_0xff-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-extra_invalid_type_request_with_data_0xff-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1749,18 +1749,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-extra_invalid_type_request_with_no_data-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-extra_invalid_type_request_with_no_data-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2013,18 +2013,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-incorrect_order_first_request_at_end-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-incorrect_order_first_request_at_end-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2276,18 +2276,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-incorrect_order_last_request_at_beginning-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-incorrect_order_last_request_at_beginning-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2539,18 +2539,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-incorrect_order_second_request_at_end-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-incorrect_order_second_request_at_end-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2802,18 +2802,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-no_requests_and_invalid_hash_calculation_method-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-no_requests_and_invalid_hash_calculation_method-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3025,18 +3025,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-no_requests_and_invalid_hash_calculation_method_2-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-no_requests_and_invalid_hash_calculation_method_2-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3248,18 +3248,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-single_consolidation_empty_requests_list-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-single_consolidation_empty_requests_list-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3480,18 +3480,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-single_consolidation_missing_type_byte-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-single_consolidation_missing_type_byte-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3714,18 +3714,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-single_deposit_empty_requests_list-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-single_deposit_empty_requests_list-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3946,18 +3946,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-single_deposit_missing_type_byte-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-single_deposit_missing_type_byte-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4180,18 +4180,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-single_withdrawal_empty_requests_list-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-single_withdrawal_empty_requests_list-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4412,18 +4412,18 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     },
-    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_deposit_withdrawal_consolidation_requests[fork_Prague-single_withdrawal_missing_type_byte-blockchain_test_engine]": {
+    "tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py::test_invalid_multi_type_requests[fork_Prague-single_withdrawal_missing_type_byte-blockchain_test_engine]": {
         "network": "Prague",
         "genesisBlockHeader": {
             "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -4646,14 +4646,14 @@
             "comment": "`execution-spec-tests` generated test",
             "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
             "description": "Test function documentation:\n\n    Negative testing for all request types in the same block.\n\n    In these tests, the requests hash in the header reflects what's received in the parameters\n    portion of the `engine_newPayloadVX` call, so the block hash calculation might pass if\n    a client copies the info received verbatim, but block validation must fail after\n    the block is executed (via RLP or Engine API).",
-            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.2.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L603",
+            "url": "https://github.com/ethereum/execution-spec-tests/tree/v4.3.0/tests/prague/eip7685_general_purpose_el_requests/test_multi_type_requests.py#L617",
             "fixture-format": "blockchain_test_engine",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7685.md",
             "reference-spec-version": "52a260582376476e658b1dda60864bcac3cf5e1a",
             "eels-resolution": {
-                "git-url": "https://github.com/ethereum/execution-specs.git",
-                "branch": "devnets/prague/6",
-                "commit": "a25a8ab3a2989b15baac19eb327325e442342a60"
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/prague",
+                "commit": "bb0eb750d643ced0ebf5dec732cdd23558d0b7f2"
             }
         }
     }
